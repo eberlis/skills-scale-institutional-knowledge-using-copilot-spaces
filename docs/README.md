@@ -1,52 +1,22 @@
-# Scale institutional knowledge using Copilot Spaces
+# OctoAcme Project Management Docs
 
-<img src="https://octodex.github.com/images/Professortocat_v2.png" align="right" height="200px" />
+## Project Management Process Summary
 
-Hey eberlis!
+OctoAcme’s project management process is grounded in a clear, structured lifecycle that guides teams from project initiation to retrospective analysis. The approach begins with comprehensive project initiation, involving validation of ideas, stakeholder alignment, and articulation of success criteria. Once approved, detailed planning breaks work into manageable increments, establishes a prioritized backlog, and identifies dependencies, risks, and resource allocations. Regular decision gates maintain alignment and focus efforts on impactful outcomes.
 
-Mona here. I'm done preparing your exercise. Hope you enjoy! 💚
+Distinct personas drive OctoAcme’s delivery: Project Managers coordinate timelines and risks; Product Managers define product vision; Developers implement and test features; QA ensures deliverables meet acceptance criteria; Stakeholders provide approvals and feedback. Communication is regular and purposeful, with daily standups, weekly delivery syncs, monthly stakeholder briefings, and clearly defined escalation paths to resolve issues quickly.
 
-Remember, it's self-paced so feel free to take a break! ☕️
-
-[![](https://img.shields.io/badge/Go%20to%20Exercise-%E2%86%92-1f883d?style=for-the-badge&logo=github&labelColor=197935)](https://github.com/eberlis/skills-scale-institutional-knowledge-using-copilot-spaces/issues/1)
+Quality assurance is embedded throughout, with unit, integration, and end-to-end testing, CI pipelines for linting and security, and formal acceptance criteria for each deliverable. Releases are managed according to type, with validation, smoke tests, and rollback playbooks. Retrospectives capture learnings and reinforce a culture of continuous improvement, ensuring that processes evolve for consistency and high performance.
 
 ---
 
-## OctoAcme Project Management Overview
+## Process Documents
 
-OctoAcme runs projects using a customer-first, iterative approach with clear ownership and data-informed decisions. Key principles include:
-- Delivering value in small, testable increments
-- Assigning a Project Manager (PM) and Product Lead to each project
-- Encouraging feedback and learning for psychological safety
-
-### Core Roles
-- **Project Manager (PM):** Coordinates delivery, schedules, risk, communications
-- **Product Manager (PdM):** Defines outcomes, prioritizes backlog, measures success
-- **Developers:** Implement features, collaborate on design and testability
-- **QA/Testing:** Validate quality and acceptance criteria
-- **Stakeholders:** Provide inputs and approvals
-
-### Key Artifacts
-- Project Charter / One-pager
-- Roadmap and Release Plan
-- Sprint/Iteration Backlog
-- Acceptance Criteria & Definition of Done
-- Risk Register
-- Retrospective notes and action items
-
-### Project Lifecycle
-1. **Initiation:** Problem statement, stakeholders, high-level timeline
-2. **Planning:** Scope, resources, milestones, dependencies
-3. **Execution:** Build, test, review, iterate
-4. **Release:** Deploy, verify, announce
-5. **Close & Retrospective:** Capture learnings and next steps
-
-### Communication Cadence
-- Weekly sync between PM + PdM
-- Twice-weekly standups for delivery team (or as agreed)
-- Monthly stakeholder updates
-- Ad-hoc escalations as needed
-
----
-
-&copy; 2025 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
+- [Project Management Overview](./octoacme-project-management-overview.md)
+- [Project Initiation Guide](./octoacme-project-initiation.md)
+- [Project Planning](./octoacme-project-planning.md)
+- [Execution & Tracking](./octoacme-execution-and-tracking.md)
+- [Risk Management & Communication](./octoacme-risks-and-communication.md)
+- [Release & Deployment Guide](./octoacme-release-and-deployment.md)
+- [Retrospective & Continuous Improvement](./octoacme-retrospective-and-continuous-improvement.md)
+- [Roles & Personas](./octoacme-roles-and-personas.md)
