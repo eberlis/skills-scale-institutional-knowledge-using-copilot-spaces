@@ -3,6 +3,8 @@
 ## Purpose
 Standardize how OctoAcme releases features to production to reduce risk and improve observability.
 
+> **Note:** Release Managers typically coordinate this process. See [Roles & Personas](./octoacme-roles-and-personas.md#release-managers) for more details on responsibilities and interactions.
+
 ## Release Types
 - Patch: hotfixes addressing critical production issues
 - Minor: incremental features and improvements
